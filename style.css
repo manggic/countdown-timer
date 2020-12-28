@@ -1,0 +1,59 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url('images/lake.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin : 0px;
+    /* background-color: blueviolet; */
+}
+
+h1{
+    padding-top: 30px;
+    color :#FF6666;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.big-text{
+    font-size: 45px;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    /* margin-left: 15px;     */
+    font-weight: bold;
+}
+
+.countdown-container{
+     display: flex;
+     padding-left: 15px;
+     /* text-align: center; */
+}
+
+.time{
+    padding: 5px;
+    /* text-align: center; */
+}
+.time span{
+    font-size: 20px;
+}
+
+/* #header{
+    border-radius: 60%;
+    height : 280px;
+    width : 350px;
+    border: 2px solid green;
+    padding-left: 43px;
+    padding-top: 30px;
+    margin-top: 20px;
+    background-color: lightslategray;
+    margin-right: 22px;
+} */
+
+
+
