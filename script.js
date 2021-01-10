@@ -4,12 +4,16 @@ console.log('in JS ');
 
 setInterval( () => {
     let d1 = new Date()  // month/day/year
-    let d2 = new Date('1/1/2021')
+
+    //console.log('check',typeof  d1.getFullYear() );
+    let finalDate = '1/1/'+ String(d1.getFullYear() + 1) 
+
+    let d2 = new Date(finalDate)
     
-    console.log(d2.toLocaleTimeString());
+    //console.log(d2.toLocaleTimeString());
     let diff = (d2 - d1)  //miliseconds
     
-    console.log('miliseconds', diff);
+    //console.log('miliseconds', diff);
     let timeInSecond  = Math.floor(diff / 1000)     // milisec to second
     
     //step1 
